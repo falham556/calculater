@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   display: flex;
   justify-content: center;
@@ -12,7 +11,6 @@ body {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   font-family: 'Segoe UI', sans-serif;
 }
-
 #calculator_container {
   background: #1e1e2e;
   border-radius: 24px;
@@ -64,8 +62,6 @@ body {
 .calculator_row button:active {
   transform: scale(0.93);
 }
-
-/* Row 1: C ( ) / */
 .calculator_row:nth-child(2) button:nth-child(1) {
   background: #3e1f1f;
   color: #f87171;
@@ -81,8 +77,6 @@ body {
   background: #2d2250;
   color: #a78bfa;
 }
-
-/* Rows 2-4: number + operator buttons */
 .calculator_row:nth-child(3) button,
 .calculator_row:nth-child(4) button,
 .calculator_row:nth-child(5) button {
@@ -96,8 +90,6 @@ body {
   background: #2d2250;
   color: #a78bfa;
 }
-
-/* Row 5: DEL 0 . = */
 .calculator_row:nth-child(6) button:nth-child(1) {
   background: #1f2f3e;
   color: #60a5fa;
